@@ -1,0 +1,6 @@
+#+TITLE: pdf-cscroll
+
+* pdf-tools-cscroll.el
+  This file implements 'real' continuous scrolling a la [[https://github.com/dalanicolai/vimura-epc][vimura-epc]] but using the
+  =epdfinfo= server. This version uses the =epdfinfo= server to retrieve png's
+  of three pages at the time and combines them in a svg root image.
